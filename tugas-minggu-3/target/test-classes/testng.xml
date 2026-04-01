@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Suite">
+    <test name="End To End Test" preserve-order="true">        <classes>
+            <class name="com.juaracoding.syafiq.LoginTest" />
+            <class name="com.juaracoding.syafiq.CartTest" />
+            <class name="com.juaracoding.syafiq.CheckoutTest" />
+        </classes>
+    </test>
+</suite>
+
